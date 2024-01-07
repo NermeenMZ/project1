@@ -1,0 +1,469 @@
+*{
+ margin: 0;
+ padding: 0;
+    box-sizing: content-box;
+}
+header{
+    background-image: url("blue_bg.png") ;
+    width: 100%;
+    height: 35%;
+ 
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color: rgba(106, 55, 199, 0.685);
+padding:5px;
+height: 200px;
+margin: 20px;
+padding: 5px;
+font-size: medium;
+}
+.nav1{
+    display: flex;
+    align-items: center;
+    height: 60px;
+
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    margin:25px;
+    padding: 10px;
+}
+li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    margin: 10px;
+}
+button{
+    width: 100px;
+    height: 25px;
+    border-radius: 30%;
+    padding: 10px;
+    margin: 2px;
+    background-color: white;
+    border: none;
+    color: rgba(106, 55, 199, 0.685);
+    font-size: medium;
+
+
+}
+.sec3{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    height: 500px;
+}
+.par1{
+  display: flex;
+  justify-content: space-around;  
+  align-items: center;
+  flex-direction: column;
+  width: 300px;
+  height:500px;
+  margin: 80px;
+  padding: 5px;
+  position: relative;
+  left: 20px;
+  text-align: center;
+
+
+
+}
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 6ch;
+    color: rgba(22, 4, 59, 0.774);
+}
+h1+p{
+    margin-top: 30px;
+}
+.span{
+    color: rgb(110, 33, 182);
+}
+.p1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color: rgba(106, 55, 199, 0.685);
+font-size: 3ch;
+height: 50px;
+width: 500px;
+border: 1px solid none;
+
+
+
+}
+.part2{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    height: 500px;
+    width: 50%;
+    
+}
+.z1{
+    position: absolute;
+    z-index:-1;
+    height: 800px;
+    width: 800px;
+    right: 5%;
+
+
+}
+.z2{
+    position: absolute;
+    z-index: index 1;
+    height: 700px; 
+    width: 300px; 
+    right: 47%;
+}
+.z3{
+    position: absolute;
+    height: 250px;
+    z-index:3;
+    height: 400px;
+    width: 500px;
+    right: 25%;
+    top: 70%;
+}
+.wave{
+    position: absolute;
+    height: 200px;
+    width: 1000px;
+    z-index: 2;
+    right: 35%;
+    top: 100%;
+
+}
+.img1{
+    width: 85%;
+    height: 600px;
+    margin: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 40px;
+    left: 50px;
+    position: relative;
+    z-index: 1;
+}
+.div1{
+    display: flex;
+    justify-content: start;
+    flex-wrap:wrap ;
+    flex-direction: column;
+    position: absolute;
+    color: rgba(106, 55, 199, 0.685);
+    height: 400px;
+    width: 300px;
+    margin: 30px;
+    top: 800px;
+    left: 40px;
+    z-index: 2;
+    border: 1px;
+
+}
+.h11{
+    color: rgba(23, 5, 58, 0.685);
+    font-size: 3ch;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     justify-items: center;
+}
+.p11{
+    color: rgba(23, 5, 58, 0.685);
+    font-size: 2ch;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+
+}
+.div2{
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap ;
+    flex-direction: column;
+    position: absolute;
+    color: rgba(106, 55, 199, 0.685);
+    height: 400px;
+    width: 350px;
+    margin: 30px;
+    z-index: 3;
+    border: 1px;
+    left: 500px;
+    top: 1010px;
+
+
+}
+.div3{
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap ;
+    flex-direction: column;
+    position: absolute;
+    color: rgba(106, 55, 199, 0.685);
+    height: 400px;
+    width: 375px;
+    margin: 1px;
+    z-index: 2;
+    border: 1px;
+    top: 1345px;
+padding: 3px;
+right: 1px;
+}
+.h12{
+    color: rgba(23, 5, 58, 0.685);
+    font-size: 3ch;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     justify-items: center;
+     align-items: center;
+     text-align: center;
+}
+.div4{
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap ;
+    flex-direction: column;
+    position: relative;
+    color: rgba(106, 55, 199, 0.685);
+    height: 700px;
+    width: 450px;
+    margin: 1px;
+    z-index: 2;
+    border: 1px;
+    left: 100px;
+    bottom: 250px;
+}
+h6{
+    position: absolute;
+    color: white;
+    left: 75px;
+    font-size: 2ch;  
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+margin: 5px;
+padding: 20px;
+bottom: 350px;
+    
+}
+h2{
+    position: absolute;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+padding: 2px;
+    color: white;
+    font-size: 6ch;
+    font-weight: bold;
+    margin: 2px;
+    left: 100px;
+
+}
+h6+h2{
+    margin-top: 30px;
+}
+
+
+.sec1{
+height: 20%;    width: 100%;
+
+}
+.sec2{
+    width: 100%;
+height: 25%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-direction: row;
+bottom: 300px;
+
+}
+.sahm1{
+    font-size: 3ch;
+    font-weight: bold;
+    color: black;
+    left: 500px;
+}
+.sahm2{
+    font-size: 3ch;
+    font-weight: bold;
+    color: black;
+    right: 500px;
+
+}
+.div7{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
+    width: 450px;
+    color: rgba(106, 55, 199, 0.685);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.div6{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+
+}
+.div5{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 150px;
+    width: 150px;
+
+}
+h3+p{
+    margin-top: 30px;
+}
+h3{
+    font-size: 2ch;
+    align-items: center;
+}
+.div8{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 200px;
+    width: 200px;
+
+}
+.ppp{
+    flex-wrap: wrap;
+
+
+}
+footer{
+    background-image: url("Group 1131.png");
+
+    height:750px;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+
+
+}
+.div10{
+    width: 600px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    bottom: 0px;
+    left: 250px;
+    top: 99%;
+
+}
+.div11{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    height: 50px;
+    width: 350px;
+    left: 250px;
+
+}
+.buttn1{
+    display: flex;
+    justify-content: space-around;
+    left: 250px;
+    align-items: center;
+    flex-direction: row;
+
+}.buttn2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+
+}
+.store{
+    position: absolute;
+    z-index: 2;
+    left: 210px;
+
+}
+.play{
+    position: absolute;
+    z-index: 2;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgba(106, 55, 199, 0.685);
+}
+.div12{
+    width: 500px;
+    left: 200px;
+    bottom: 5px;
+    height: 20px;
+
+}
+.imggg{
+    position: relative;
+    z-index: 1;
+    width: 150px;
+    height: 50px;
+}
+.playy{
+     position: absolute;
+    z-index: 2;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgba(106, 55, 199, 0.685);
+
+
+}
+.imgg{
+    position: relative;
+    z-index: 1;
+    width: 150px;
+    height: 50px;
+}
+.apple{
+    position: absolute;
+    z-index: 2;
+left: 1px;
+}
+
+.ulll{
+    color: white;
+    height: 25px;
+    padding: 5px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.div11 + .div9 + .div12{
+     margin-top:5px;
+}
+.div9{
+ display: flex; 
+ justify-content: space-between; 
+ align-items: center;
+ height: 20px;
+ padding: 5px;
+ margin: 15px;
+ width: 150px;
+}
+.boy{
+    width: 500px;
+    height: 600px;
+    right: 250px;
+
+}
